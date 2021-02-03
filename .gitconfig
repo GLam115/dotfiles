@@ -1,0 +1,5 @@
+[user]
+	email = glam3@uw.edu
+
+[alias]
+graph = log --all --graph --decorate --oneline
