@@ -94,6 +94,19 @@ alias l='ls -CF'
 alias attu='ssh glam3@attu.cs.washington.edu'
 alias p='python3'
 alias python='python3'
+alias sc='cd ~/Desktop/School'
+alias 452='cd ~/Desktop/School/dslabs-hdesai2'
+alias 401='cd ~/Desktop/School/cse401-21sp-ah'
+alias paxos='cd ~/Desktop/School/dslabs-hdesai2/labs/lab3-paxos/src/dslabs/paxos'
+alias shard='cd ~/Desktop/School/dslabs-hdesai2/labs/lab4-shardedstore/src/dslabs'
+alias school='cd ~/Desktop/School/'
+alias koi='cd ~/Desktop/School/KoiKoiProject'
+alias mnet='cd ~/Desktop/School/CSE461/mininet-vagrant'
+
+#function that combines cd and ls
+function cdd {
+    builtin cd "$@" && ls -l
+}
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
