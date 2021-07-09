@@ -11,6 +11,9 @@
 " `vim -u foo`).
 set nocompatible
 
+" Highlight search messages
+:set hlsearch
+
 " Turn on syntax highlighting.
 syntax on
 

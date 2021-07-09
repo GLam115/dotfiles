@@ -101,6 +101,7 @@ alias paxos='cd ~/Desktop/School/dslabs-hdesai2/labs/lab3-paxos/src/dslabs/paxos
 alias shard='cd ~/Desktop/School/dslabs-hdesai2/labs/lab4-shardedstore/src/dslabs'
 alias school='cd ~/Desktop/School/'
 alias koi='cd ~/Desktop/School/KoiKoiProject'
+alias kois='cd ~/Desktop/School/KoiKoiProject/src/KoiKoi'
 alias mnet='cd ~/Desktop/School/CSE461/mininet-vagrant'
 
 #function that combines cd and ls
