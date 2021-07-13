@@ -11,8 +11,11 @@
 " `vim -u foo`).
 set nocompatible
 
+" Set audoindent
+set autoindent
+
 " Highlight search messages
-:set hlsearch
+set hlsearch
 
 " Turn on syntax highlighting.
 syntax on
